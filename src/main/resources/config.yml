@@ -1,0 +1,2 @@
+# this should be formatted as the json part in the /tellraw command
+message: '["hello world"]'
