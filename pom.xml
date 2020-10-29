@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>fi.silentnoodlemaster</groupId>
   <artifactId>HelloWord</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 	<build>
 	   <plugins>
 	       <plugin>
@@ -23,9 +23,9 @@
    </repositories>
       <dependencies>
        <dependency>
-           <groupId>org.bukkit</groupId>
-           <artifactId>bukkit</artifactId>
-           <version>1.15.2-R0.1-SNAPSHOT</version>
+           <groupId>org.spigotmc</groupId>
+           <artifactId>spigot-api</artifactId>
+           <version>1.16.3-R0.1-SNAPSHOT</version>
            <type>jar</type>
            <scope>provided</scope>
        </dependency>
