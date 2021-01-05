@@ -1,4 +1,4 @@
-package fi.silentnoodlemaster.helloword;
+package fi.silentnoodlemaster.helloworld;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
