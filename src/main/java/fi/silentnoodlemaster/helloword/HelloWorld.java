@@ -15,9 +15,9 @@ public final class HelloWorld extends JavaPlugin implements Listener {
 	}
 	@EventHandler
 	public void onJoin(PlayerJoinEvent event) {
-		String name = event.getPlayer().getName();
+		String uuid = event.getPlayer().getUniqueId().toString();
 		String message = this.getConfig().getString("message");
-		String command = String.format("tellraw %s %s", name, message);
+		String command = String.format("tellraw %s %s", uuid, message);
 		getServer().dispatchCommand(getServer().getConsoleSender(), command);
 	}
 	@Override
